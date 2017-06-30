@@ -1,0 +1,19 @@
+{
+  "name": "mocha-json-streamier",
+  "version": "1.0.0",
+  "description": "Improvement to standard mocha json stream reporter to expose more data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/findmypast-oss/mocha-json-streamier.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/findmypast-oss/mocha-json-streamier/issues"
+  },
+  "homepage": "https://github.com/findmypast-oss/mocha-json-streamier#readme"
+}
