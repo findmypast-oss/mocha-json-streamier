@@ -1,8 +1,8 @@
 {
-  "name": "mocha-json-streamier",
-  "version": "1.0.0",
+  "name": "mocha-json-streamier-reporter",
+  "version": "1.0.1",
   "description": "Improvement to standard mocha json stream reporter to expose more data.",
-  "main": "index.js",
+  "main": "lib/streamier.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/findmypast-oss/mocha-json-streamier/issues"
   },
-  "homepage": "https://github.com/findmypast-oss/mocha-json-streamier#readme"
+  "homepage": "https://github.com/findmypast-oss/mocha-json-streamier#readme",
+  "dependencies": {
+    "json3": "^3.3.2"
+  },
+  "peerDependencies": {
+    "mocha": "~3.0"
+  }
 }
