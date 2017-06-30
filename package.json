@@ -1,6 +1,6 @@
 {
   "name": "mocha-json-streamier-reporter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Improvement to standard mocha json stream reporter to expose more data.",
   "main": "lib/streamier.js",
   "scripts": {
