@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/findmypast-oss/mocha-json-streamier.git"
+    "url": "git+https://github.com/findmypast-oss/mocha-json-streamier-reporter.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/findmypast-oss/mocha-json-streamier/issues"
+    "url": "https://github.com/findmypast-oss/mocha-json-streamier-reporter/issues"
   },
-  "homepage": "https://github.com/findmypast-oss/mocha-json-streamier#readme",
+  "homepage": "https://github.com/findmypast-oss/mocha-json-streamier-reporter#readme",
   "dependencies": {
     "json3": "^3.3.2",
     "lodash": "^4.17.4"
