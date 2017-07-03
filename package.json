@@ -4,7 +4,7 @@
   "description": "Improvement to standard mocha json stream reporter to expose more data.",
   "main": "lib/streamier.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/findmypast-oss/mocha-json-streamier#readme",
   "dependencies": {
-    "json3": "^3.3.2"
+    "json3": "^3.3.2",
+    "lodash": "^4.17.4"
   },
   "peerDependencies": {
     "mocha": "~3.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
   }
 }
