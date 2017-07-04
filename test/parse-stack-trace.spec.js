@@ -21,6 +21,15 @@ describe('Works with a stack trace', function() {
       column: 15,
     });
   });
+  it('should return a module name and line number from a stack trace.', function() {
+    const stackTrace =
+      'AssertionError: Package.json includes dependencies  which are not\n      imported in the code. If you have removed their usage, you\n      should also remove them from package.json by running:\n        yarn remove .\n    at Context.<anonymous> (test/support/depcheck.spec.js:53:10)';
+    assert.deepEqual(extractModuleLineAndColumn(stackTrace), {
+      file: 'test/support/depcheck.spec.js',
+      line: 53,
+      column: 10,
+    });
+  });
 
   it('should return an empty object if there is no stacktrace.', function() {
     const stackTrace = `
