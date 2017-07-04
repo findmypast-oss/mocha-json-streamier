@@ -13,7 +13,8 @@ describe('Works with a stack trace', function() {
         at Function.Module._load (module.js:310:12)
         at Function.Module.runMain (module.js:501:10)
         at startup (node.js:129:16)
-        at node.js:814:3`;
+        at node.js:814:3
+        at Context.<undefined> (c:/Users/Me/Documents/MyApp/app.js:9:15)`;
     assert.deepEqual(extractModuleLineAndColumn(stackTrace), {
       file: 'c:/Users/Me/Documents/MyApp/app.js',
       line: 9,
