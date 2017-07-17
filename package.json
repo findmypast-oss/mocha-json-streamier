@@ -24,6 +24,7 @@
     "mocha": "~3.0"
   },
   "devDependencies": {
+    "json-stringify-safe": "^5.0.1",
     "mocha": "^3.4.2"
   }
 }
