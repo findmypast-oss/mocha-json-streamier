@@ -21,7 +21,7 @@
     "lodash": "^4.17.4"
   },
   "peerDependencies": {
-    "mocha": "~3.0"
+    "mocha": "^3.0.0"
   },
   "devDependencies": {
     "json-stringify-safe": "^5.0.1",
